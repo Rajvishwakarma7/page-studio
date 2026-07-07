@@ -21,6 +21,8 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+test-results/
+playwright-report/
 
 # nyc test coverage
 .nyc_output
@@ -64,6 +66,9 @@ web_modules/
 
 # Yarn Integrity file
 .yarn-integrity
+project.md*
+.agents
+.codex
 
 # dotenv environment variable files
 .env
@@ -141,3 +146,5 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
